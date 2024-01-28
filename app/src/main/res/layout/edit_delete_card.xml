@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/edit_delete_card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    app:cardCornerRadius="10dp"
+    android:background="@color/light_blue">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_blue">
+
+<!--        <TextView-->
+<!--            android:id="@+id/edit_text_tv"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            app:layout_constraintVertical_bias=".25"-->
+<!--            android:text="Edit"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <View-->
+<!--            android:layout_width="1dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="?android:attr/dividerVertical"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/edit_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="32.5dp"
+            android:textSize="18sp"
+            app:icon="@drawable/edit_icon"
+            app:iconGravity="textStart"
+            app:layout_constraintBottom_toTopOf="@id/delete_text_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/delete_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="18sp"
+            android:paddingHorizontal="22dp"
+            app:icon="@drawable/delete_icon"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_switch"
+            android:title="Light Mode"
+            android:icon="@drawable/light_mode_icon"
+            app:actionViewClass="com.google.android.material.materialswitch.MaterialSwitch"
+            app:showAsAction="always"/>
+
+        <!-- Logout Item -->
+        <item
+            android:id="@+id/menu_logout"
+            android:title="Logout"
+            app:actionViewClass="com.google.android.material.button.MaterialButton"
+            android:icon="@drawable/logout_icon" />
+
+    </group>
+</menu>

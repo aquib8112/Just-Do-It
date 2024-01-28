@@ -1,0 +1,114 @@
+<resources>
+    <style name="Base.Theme.JustDoIt" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue_DT</item>
+        <item name="colorTertiary">@color/black</item>
+    </style>
+    <style name="bar_addBT_style">
+        <item name="android:background">@color/dark_blue_DT</item>
+        <item name="android:backgroundTint">@color/dark_blue_DT</item>
+    </style>
+
+    <style name="open_menu_bt_style"><item name="android:backgroundTint">#1c1b1f</item></style>
+    <style name="task_item_style"><item name="android:backgroundTint">@color/light_blue_DT</item></style>
+
+    <style name="login_signup_bt">
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingHorizontal">32dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="backgroundTint">@color/dark_blue_DT</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bt_box</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="login_signup_box">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:background">@drawable/et_box</item>
+        <item name="android:layout_marginHorizontal">32dp</item>
+        <item name="layout_constraintDimensionRatio">75:12</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="Add_update_step_card">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintVertical_bias">.4</item>
+        <item name="android:layout_marginHorizontal">24dp</item>
+        <item name="layout_constraintDimensionRatio">60:25</item>
+        <item name="android:backgroundTint">@color/light_blue_DT</item>
+    </style>
+
+    <style name="Add_update_task_card">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintVertical_bias">.4</item>
+        <item name="android:layout_marginHorizontal">24dp</item>
+        <item name="layout_constraintDimensionRatio">15:11</item>
+        <item name="android:backgroundTint">@color/light_blue_DT</item>
+    </style>
+
+    <style name="ET_box">
+        <item name="android:textSize">18sp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:background">@drawable/et_box</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="layout_constraintDimensionRatio">55:8</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="Button_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/dark_blue_DT</item>
+        <item name="android:layout_marginVertical">16dp</item>
+        <item name="android:background">@drawable/bt_box</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="calender_icon_style">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">56dp</item>
+        <item name="backgroundTint">@color/light_grey</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/et_box</item>
+        <item name="android:src">@drawable/calendar_icon</item>
+    </style>
+
+    <style name="app_title_style">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:background">@drawable/dark_title_box</item>
+    </style>
+
+    <style name="delete_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">24dp</item>
+        <item name="android:backgroundTint">#1c1b1f</item>
+    </style>
+</resources>

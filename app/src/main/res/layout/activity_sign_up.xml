@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.justdoit.signUp.SignUpActivity">
+
+    <TextView
+        android:id="@+id/app_title"
+        style="@style/app_title_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:textColor="@color/black"
+        android:text="@string/sign_up_text"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameEt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <EditText
+        android:id="@+id/nameEt"
+        style="@style/login_signup_box"
+        app:layout_constraintVertical_bias=".25"
+        android:hint="@string/name_text"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sign_up_emailET"
+        style="@style/login_signup_box"
+        android:hint="@string/email_text"
+        android:importantForAutofill="no"
+        android:inputType="textEmailSubject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameEt" />
+
+    <EditText
+        android:id="@+id/sign_up_passwordET"
+        style="@style/login_signup_box"
+        android:fontFamily="@font/inter_regular"
+        android:inputType="textPassword"
+        android:hint="@string/password_text"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_emailET" />
+
+    <EditText
+        android:id="@+id/sign_up_password_checkET"
+        style="@style/login_signup_box"
+        android:hint="@string/password_check_text"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_passwordET" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_up_BT"
+        style="@style/login_signup_bt"
+        android:text="@string/sign_up_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_password_checkET"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_intent_text"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_BT" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

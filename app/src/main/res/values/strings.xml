@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">JUST DO IT.</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="due_date">Due Date</string>
+    <string name="enter_task_description">Enter Task Description</string>
+    <string name="enter_task_name">Enter Task name"</string>
+    <string name="add_task">Add Task</string>
+    <string name="date_text">31/07/2001</string>
+    <string name="due_on_text">Due On</string>
+    <string name="description_text">The description of the task</string>
+    <string name="title_text">The name of task</string>
+    <string name="edit_button_text">Edit</string>
+    <string name="back_button_text">Back</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="delete_confirmation_text">This Task Will Be Permanently Deleted</string>
+    <string name="add_step">Add Step</string>
+    <string name="task_name">Task Name</string>
+    <string name="description">Description</string>
+    <string name="step_text">Step</string>
+    <string name="update_text">Update</string>
+
+    <string name="menu_button_text">Open Menu</string>
+
+    <string name="login_text">LOGIN</string>
+    <string name="logout_text">Logout</string>
+    <string name="sign_up_text">SIGN UP</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="password_check_text">Rewrite Password</string>
+    <string name="sign_up_intent_text">Don\'t have a account\nSIGN UP</string>
+    <string name="login_intent_text">Already have a account\nLOGIN</string>
+    <string name="name_text">Name</string>
+
+    <string name="calender_icon_description">change date</string>
+</resources>

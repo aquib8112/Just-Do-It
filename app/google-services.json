@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151337196567",
+    "project_id": "just-do-it-548d2",
+    "storage_bucket": "just-do-it-548d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151337196567:android:c65e88ec199e4d18c61052",
+        "android_client_info": {
+          "package_name": "com.example.justdoit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmqVfL-h7WAfKYn-OhQTQhHyx0tt8YmUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
