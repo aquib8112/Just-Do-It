@@ -17,7 +17,8 @@ Just Do It employs cutting-edge technologies to ensure a robust and user-friendl
 - Cloud Firestore: Enabling data synchronization across devices, fostering a connected user experience.
 - MVVM Architecture: A well-thought-out architectural approach, enhancing code organization and maintainability 🏛️.
 
-## ➡️ Getting Started
+## ➡️ How to Use Just Do It
+### Getting Started
 ### Step 1: Clone the Repository
 - Start by cloning the Just Do It repository to your local machine.
 ```bash
