@@ -17,6 +17,9 @@ Just Do It employs cutting-edge technologies to ensure a robust and user-friendl
 - Cloud Firestore: Enabling data synchronization across devices, fostering a connected user experience.
 - MVVM Architecture: A well-thought-out architectural approach, enhancing code organization and maintainability 🏛️.
 
+## User Interface
+![just-do-it-UI_2](https://github.com/aquib8112/Just-Do-It/assets/103742317/d77579a6-94f2-4145-9f8a-5a54ddbfafdb)
+
 ## ➡️ How to Use Just Do It
 ### Getting Started
 ### Step 1: Clone the Repository
