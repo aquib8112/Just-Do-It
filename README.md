@@ -38,7 +38,8 @@ git clone https://github.com/aquib8112/Just-Do-It.git
 ### Step 4: Run the App
 - Run the app on your Android device or emulator.
 ### Step 5: Sign Up
-- Launch the app and sign up using your preferred method, preferably via Google for a seamless experience.
+- Launch the app and sign up using your Email,then verify your Email.
+- Then Login in the app using the same email and password.
 ### Step 6: Use Just Do It
 - Once signed up, start using Just Do It to break down your ambitious goals into manageable steps.
 #### Note: Ensure you have the necessary dependencies installed, and your Firebase project is properly set up to use Firebase Authentication and Cloud Firestore.
