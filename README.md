@@ -20,9 +20,9 @@ Just Do It employs cutting-edge technologies to ensure a robust and user-friendl
 ## ➡️ Getting Started
 ### Step 1: Clone the Repository
 - Start by cloning the Just Do It repository to your local machine.
-'''bash
+```bash
 git clone https://github.com/aquib8112/Just-Do-It.git
-'''bash
+```
 ### Step 2: Open in Android Studio
 - Open the cloned project in Android Studio.
 - Ensure your Android Studio is configured correctly for Kotlin, XML, and Firebase.
@@ -37,4 +37,4 @@ git clone https://github.com/aquib8112/Just-Do-It.git
 - Launch the app and sign up using your preferred method, preferably via Google for a seamless experience.
 ### Step 6: Use Just Do It
 - Once signed up, start using Just Do It to break down your ambitious goals into manageable steps.
-Note: Ensure you have the necessary dependencies installed, and your Firebase project is properly set up to use Firebase Authentication and Cloud Firestore.
+#### Note: Ensure you have the necessary dependencies installed, and your Firebase project is properly set up to use Firebase Authentication and Cloud Firestore.
