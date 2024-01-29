@@ -8,13 +8,13 @@ The app excels in capturing and organizing essential exercise metrics, including
 
 ## Technologies Used
 Just Do It leverages cutting-edge technologies to deliver a robust and user-friendly experience:
-Kotlin: The primary programming language for the app, ensuring modern and concise code.
-XML for UI Design: Creating an intuitive and visually appealing user interface.
-Coroutines: Employed for efficient multi-threading, enhancing app responsiveness.
-Room Database: Facilitating seamless offline data storage for a smooth user experience.
-Firebase Authentication: Ensuring secure user login, establishing a trustworthy environment.
-Cloud Firestore: Enabling data synchronization across devices, fostering a connected user experience.
-MVVM Architecture: A thoughtfully designed architectural approach, enhancing code organization and maintainability.
+- Kotlin: The primary programming language for the app, ensuring modern and concise code.
+- XML for UI Design: Creating an intuitive and visually appealing user interface.
+- Coroutines: Employed for efficient multi-threading, enhancing app responsiveness.
+- Room Database: Facilitating seamless offline data storage for a smooth user experience.
+- Firebase Authentication: Ensuring secure user login, establishing a trustworthy environment.
+- Cloud Firestore: Enabling data synchronization across devices, fostering a connected user experience.
+- MVVM Architecture: A thoughtfully designed architectural approach, enhancing code organization and maintainability.
 
 ## How to Use Just Do It
 Using Just Do It is as straightforward as your workout routine:
