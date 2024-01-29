@@ -17,10 +17,24 @@ Just Do It employs cutting-edge technologies to ensure a robust and user-friendl
 - Cloud Firestore: Enabling data synchronization across devices, fostering a connected user experience.
 - MVVM Architecture: A well-thought-out architectural approach, enhancing code organization and maintainability 🏛️.
 
-## ➡️ How to Use Just Do It
-- Utilizing Just Do It is as straightforward as tackling your goals:
-- User Registration: Users register and log in via Google to access the app's features.
-- Streamlined Access: The app offers a unique login to streamline the process of breaking down tasks.
-- Goal Setting: Users can break down ambitious goals into smaller, actionable steps.
-- Real-Time Updates: The app provides real-time updates on progress, fostering motivation and transparency.
-- Just Do It transforms the approach to tackling ambitious goals, making them more achievable by aligning technology with personal aspirations.
+## ➡️ Getting Started
+### Step 1: Clone the Repository
+- Start by cloning the Just Do It repository to your local machine.
+'''bash
+git clone https://github.com/aquib8112/Just-Do-It.git
+'''bash
+### Step 2: Open in Android Studio
+- Open the cloned project in Android Studio.
+- Ensure your Android Studio is configured correctly for Kotlin, XML, and Firebase.
+### Step 3: Set Up Firebase
+- Connect your project to Firebase:
+- Create a new project on the Firebase Console.
+- Follow the steps to add your Android app to the Firebase project.
+- Download the google-services.json file and place it in your app module.
+### Step 4: Run the App
+- Run the app on your Android device or emulator.
+### Step 5: Sign Up
+- Launch the app and sign up using your preferred method, preferably via Google for a seamless experience.
+### Step 6: Use Just Do It
+- Once signed up, start using Just Do It to break down your ambitious goals into manageable steps.
+Note: Ensure you have the necessary dependencies installed, and your Firebase project is properly set up to use Firebase Authentication and Cloud Firestore.
